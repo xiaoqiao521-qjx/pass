@@ -17,7 +17,6 @@ public class Main8Activity extends AppCompatActivity {
     }
 
     private void initView() {
-        mTv = (TextView) findViewById(R.id.tv);
-        mTv.setText("爱上对方根本");
+
     }
 }
