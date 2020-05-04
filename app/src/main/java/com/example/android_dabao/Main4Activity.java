@@ -26,7 +26,7 @@ public class Main4Activity extends AppCompatActivity {
         mM4Tv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mM4Tv.setText("安德森幸福茶馆v吧");
+                mM4Tv.setText("于同年回国反驳对方");
             }
         });
 
