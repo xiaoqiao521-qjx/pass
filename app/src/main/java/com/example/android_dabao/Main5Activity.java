@@ -22,11 +22,11 @@ public class Main5Activity extends AppCompatActivity {
 
     private void initView() {
         mM5Tv = (TextView) findViewById(R.id.m5_tv);
-        mM5Tv.setText("你说呢");
+        mM5Tv.setText("我在你在哪");
         mM5Tv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mM5Tv.setText("按这个是大学是这东西非常");
+                mM5Tv.setText("啊实打实的先吃饭");
             }
         });
 
