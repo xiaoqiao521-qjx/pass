@@ -21,5 +21,6 @@ public class Main5Activity extends AppCompatActivity {
 
     private void initView() {
         mM5Tv = (TextView) findViewById(R.id.m5_tv);
+         mM5Tv.setText("你在哪");
     }
 }
