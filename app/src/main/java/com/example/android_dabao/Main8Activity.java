@@ -21,7 +21,8 @@ public class Main8Activity extends AppCompatActivity implements View.OnClickList
     private void initView() {
 
         mTv = (TextView) findViewById(R.id.tv);
-        mTv.setText("修改m88889999999999");
+        mTv.setText("我说你的在哪呢");
+
 
         mTv.setOnClickListener(this);
         mTvvv = (TextView) findViewById(R.id.tvvv);
