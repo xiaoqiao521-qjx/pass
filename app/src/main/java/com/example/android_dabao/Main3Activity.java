@@ -27,7 +27,7 @@ public class Main3Activity extends AppCompatActivity {
         Intent intent = getIntent();
         String type = intent.getStringExtra("type");
         if(type.equals("MainActivity")){
-            switchFragment(fragment1).commit();
+            switchFragment(fragment2).commit();
         }else {
             switchFragment(fragment2).commit();
         }
