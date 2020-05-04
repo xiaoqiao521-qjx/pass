@@ -18,5 +18,6 @@ public class Main4Activity extends AppCompatActivity {
 
     private void initView() {
         mM4 = (TextView) findViewById(R.id.m4);
+       mM4.setText("我的");
     }
 }
