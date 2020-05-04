@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends BaseActivity implements View.OnClickListener {
 
     /**
      * 跳Fragment1
@@ -21,22 +21,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button mBtn5;
     private TextView mTvText;
 
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        initView();
+    protected void getData() {
+
     }
 
-    private void initView() {
+    @Override
+    protected void getInit() {
         mBtn1 = (Button) findViewById(R.id.btn1);
         mBtn1.setOnClickListener(this);
         mBtn5 = (Button) findViewById(R.id.btn5);
         mTvText = (TextView) findViewById(R.id.tv_text);
         mBtn5.setOnClickListener(this);
         mTvText.setText("为宣传");
-  
     }
+
+    @Override
+    protected int getLayoutId() {
+        return R.layout.activity_main;
+    }
+
+
 
     @Override
     public void onClick(View v) {
