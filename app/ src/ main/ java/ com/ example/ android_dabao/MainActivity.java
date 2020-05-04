@@ -34,7 +34,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         mBtn5 = (Button) findViewById(R.id.btn5);
         mTvText = (TextView) findViewById(R.id.tv_text);
         mBtn5.setOnClickListener(this);
-        mTvText.setText("为宣传");
+        mTvText.setText("你在哪呢");
     }
 
     @Override
