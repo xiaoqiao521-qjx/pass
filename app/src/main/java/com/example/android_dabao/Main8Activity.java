@@ -21,7 +21,7 @@ public class Main8Activity extends AppCompatActivity implements View.OnClickList
     private void initView() {
 
         mTv = (TextView) findViewById(R.id.tv);
-        mTv.setText("修改m8");
+        mTv.setText("修改m8888");
 
         mTv.setOnClickListener(this);
         mTvvv = (TextView) findViewById(R.id.tvvv);
