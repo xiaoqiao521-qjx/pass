@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Main4Activity extends AppCompatActivity {
 
     private TextView mM4;
+    private TextView mM4Tv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +19,9 @@ public class Main4Activity extends AppCompatActivity {
 
     private void initView() {
         mM4 = (TextView) findViewById(R.id.m4);
-       mM4.setText("我的");
+        mM4Tv = (TextView) findViewById(R.id.m4_tv);
+        mM4.setText("asdfdxcv");
+        mM4Tv.setText("新的文字");
+
     }
 }
