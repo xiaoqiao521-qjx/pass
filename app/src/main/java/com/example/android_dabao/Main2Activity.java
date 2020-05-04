@@ -33,7 +33,7 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
                 break;
             case R.id.btn2:
                 Intent intent = new Intent(this,Main3Activity.class);
-                intent.putExtra("type","Main2Activity");
+                intent.putExtra("type","Main3Activity");
                 startActivity(intent);
                 break;
         }
