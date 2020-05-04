@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * Main2
      */
     private Button mBtn5;
+    private TextView mTvText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +32,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mBtn1 = (Button) findViewById(R.id.btn1);
         mBtn1.setOnClickListener(this);
         mBtn5 = (Button) findViewById(R.id.btn5);
+        mTvText = (TextView) findViewById(R.id.tv_text);
         mBtn5.setOnClickListener(this);
+        mTvText.setText("为宣传");
+  
     }
 
     @Override
