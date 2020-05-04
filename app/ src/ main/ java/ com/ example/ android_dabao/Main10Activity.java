@@ -20,6 +20,6 @@ public class Main10Activity extends AppCompatActivity {
 
     private void initView() {
         mTv200 = (TextView) findViewById(R.id.tv200);
-        mTv200.setText("m1000000");
+        mTv200.setText("m10");
     }
 }
