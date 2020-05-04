@@ -14,7 +14,10 @@
         android:layout_height="wrap_content"/>
 
     <TextView
-        android:id="@+id/tv100"
+        android:id="@+id/tv10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+
 </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
