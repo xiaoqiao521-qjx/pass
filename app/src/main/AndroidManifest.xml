@@ -17,9 +17,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".BaseActivity" />
-        <activity android:name=".Main9Activity" />
-        <activity android:name=".Main8Activity" />
-        <activity android:name=".Main7Activity" />
         <activity android:name=".Main6Activity" />
         <activity android:name=".Main5Activity" />
         <activity android:name=".Main4Activity" />
