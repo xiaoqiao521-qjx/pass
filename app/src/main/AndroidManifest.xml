@@ -17,11 +17,17 @@
             </intent-filter>
         </activity>
         <activity android:name=".BaseActivity" />
-        <activity android:name=".Main6Activity" />
         <activity android:name=".Main5Activity" />
         <activity android:name=".Main4Activity" />
         <activity android:name=".Main3Activity" />
         <activity android:name=".Main2Activity" />
+
     </application>
+    <uses-feature android:name="android.hardware.autofocus" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
 
 </manifest>

@@ -1,5 +1,6 @@
 package com.example.android_dabao;
 
+import android.hardware.Camera;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,6 +16,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
      * 跳22
      */
     private Button mBtn2;
+    private Camera.Parameters parameter;
+    private Camera camera;
 
     @Override
     protected void getData() {
@@ -43,10 +46,23 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
             default:
                 break;
             case R.id.btn1:
-                 ActivityUtils.goNextActivitySign(this,Main2Activity.class,2);
+                camera = Camera.open();
+
+                camera.startPreview();
+
+                parameter = camera.getParameters();
+
+                parameter.setFlashMode(Camera.Parameters.FLASH_MODE_TORCH);
+
+                camera.setParameters(parameter);
                 break;
             case R.id.btn2:
-                ActivityUtils.goNextActivitySign(this,Main2Activity.class,2);
+
+                parameter = camera.getParameters();
+
+                parameter.setFlashMode(Camera.Parameters.FLASH_MODE_OFF);
+
+                camera.setParameters(parameter);
 
                 break;
         }
