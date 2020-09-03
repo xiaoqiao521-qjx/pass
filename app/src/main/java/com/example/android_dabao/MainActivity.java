@@ -28,8 +28,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     protected void getInit() {
         mBtn1 = (Button) findViewById(R.id.btn1);
         mBtn1.setOnClickListener(this);
-        mBtn2 = (Button) findViewById(R.id.btn2);
-        mBtn2.setOnClickListener(this);
+       /* mBtn2 = (Button) findViewById(R.id.btn2);
+        mBtn2.setOnClickListener(this);*/
     }
 
     @Override
