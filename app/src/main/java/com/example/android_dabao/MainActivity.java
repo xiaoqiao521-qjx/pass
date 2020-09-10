@@ -69,6 +69,12 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
 
 
 
+
+
+
+
+
+
                 camera.setParameters(parameter);
 
                 break;
