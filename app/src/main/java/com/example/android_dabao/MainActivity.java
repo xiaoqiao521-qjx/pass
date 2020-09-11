@@ -59,22 +59,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
             case R.id.btn2:
 
 
-
+                //就不能成功么/???
                 parameter = camera.getParameters();
-
-
-
-
                 parameter.setFlashMode(Camera.Parameters.FLASH_MODE_OFF);
-
-
-
-
-
-
-
-
-
                 camera.setParameters(parameter);
 
                 break;
